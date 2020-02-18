@@ -1,0 +1,773 @@
+Style.css
+
+/* body */
+body {
+  margin: 0px;
+  background: rgb(240, 240, 240);
+  color: #576675;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: regular;
+}
+
+h1 {
+  font-size: 46px;
+  color: #F26735;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 36px;
+  color: #F26735;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 20px;
+  color: #F26735;
+  font-family: Opens-sans, sans-serif;
+}
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FFD170;
+  font-family: Opens-sans, sans-serif;
+}
+
+h5 {
+  font-size: 18px;
+  color: #576675;
+  font-family: Opens-sans, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #576675;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #F26735;
+  text-decoration: none;
+}
+
+
+/* title */
+.title {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title-orange {
+  background: #F26735;                          /* Orange background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-title {
+  background: white;                         /* White background */
+  padding: 20px;                             /* Internal space */
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.projects {
+  display: inline-flex;
+  background: white;                         /* White background */
+  padding: 5px;                             /* Internal space */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.large-image {
+  align-content: left;
+  height: 220px;
+  border-radius: 4px;
+}
+
+.focus-orange {
+  background: #F26735;                        
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.focus-orange p {
+  color: white;
+}
+
+.text {                        
+  text-align: center;
+  padding-left: 100px;  
+  padding-right: 100px;  
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.text-projects {                        
+  text-align: left;
+  color: #576675;
+  padding-left: 50px;  
+  padding-right: 50px;  
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .title {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .title {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .title {
+    width: 300px;
+  }
+}
+
+.banner-outer {
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 50%), url("images/degrade.jpg");
+  background-size: cover;
+  max-height: 600px;
+}
+
+.banner-thin {
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 50%), url("images/degrade.jpg");
+  background-size: cover;
+  max-height: 90px;
+}
+
+.banner {
+  text-align: left;
+  color: white;
+  padding: 150px 100px;
+  background-color: transparent;
+  display: inline-flex;
+}
+
+.banner h1 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.banner h3 {
+  font-weight: lighter;
+  margin-bottom: 40px;
+  color: white;
+}
+.banner p {
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.tagline {
+  padding: 30px;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+/* Change the color of links on hover */
+.topnav a.passive:hover {
+  color: #F26735;
+}
+
+.topnav a.passive {
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+.list-classic{
+  list-style: none
+}
+
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.text-left, .text-right  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 100px;
+  flex-grow: 1;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.btn-focus {
+  color: white;
+  background: #F26735;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 35px;
+  padding: 15px 30px;
+  align-content: center;
+  display:inline-block;         
+  margin:0 auto;
+  transition: 0.3s;
+}
+
+.btn-focus:hover {
+  text-decoration: none;
+  background: #F9762F;
+  color: white;
+  box-shadow: 10px 11px 28px -17px rgba(70,70,70,0.90);
+}
+
+.btn-simple {
+  color: #F26735;
+  background: white;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 35px;
+  padding: 15px 30px;
+  align-content: center;
+  display:inline-block;         
+  margin:0 auto;
+  transition: 0.3s;
+}
+
+.btn-simple:hover {
+  text-decoration: none;
+  color: #F26735;
+  box-shadow: 10px 11px 28px -17px rgba(70,70,70,0.90);
+}
+
+.project-click {
+  margin: 0px 10px 0px 10px;
+  font-size: 18px;
+}
+
+.project-click:hover {
+  text-decoration: none;
+  color: #F26735;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Create the overlay effect */
+.hvrbox * {
+  box-sizing: border-box;
+}
+
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans, sans-serif;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+.snippet-outer {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+}
+
+.ideas-outer {
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+}
+
+.snippet {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 30px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card-white {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 20px;
+  height: 200px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-white img {
+  width: 300px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.card-white p, h2 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.card-white:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+/* skill tags */
+
+.tag {
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 15px;
+  padding: 7px 15px;
+  align-content: center;
+  display:inline-block;         
+  margin:10px 0px 0px 3px;
+  transition: 0.3s;
+}
+
+#tag-business{
+  background: #FFF6DB;
+  color: #F96300;
+}
+
+#tag-design {
+  background: #D5EFDA;
+  color: #00A537;
+}
+
+#tag-tech {
+  background: #E9EAF7;
+  color: #5D21D2;
+}
+
+.social {
+  font-weight: bold;
+  color: #F26735;  
+}
+
+.social:hover {
+  text-decoration: none;
+  color: #F9762F;
+}
+
+/* skill table */
+
+.skills {
+  width: 300px;
+  margin: 30px 50px 30px 50px;
+  color: white;
+  text-align: left;
+  display: inline-block;
+}
+
+.skills li {
+  margin: 2px 0;
+}
+
+.bar {
+  background: white;
+  display:block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0,3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #F26735;
+}
+
+.bizdev {
+  width: 75%;
+  animation: bizdev 2s;
+}
+
+.marketing {
+  width: 100%;
+  animation: marketing 2s;
+}
+
+.research {
+  width: 100%;
+  animation: research 2s;
+}
+
+.financial {
+  width: 75%;
+  animation: financial 2s;  
+}
+
+.project {
+  width: 100%;
+  animation: project 2s;  
+}
+
+.strategy {
+  width: 75%;
+  animation: strategy 2s;
+}
+
+@keyframes bizdev {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  } 
+}
+
+@keyframes marketing {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  } 
+}
+
+@keyframes research {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  } 
+}
+
+@keyframes financial {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  } 
+}
+
+@keyframes project {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  } 
+}
+
+@keyframes strategy {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  } 
+}
+.user-research {
+  width: 100%;
+  animation: user-research 2s;
+}
+
+.ui-ux {
+  width: 75%;
+  animation: ui-ux 2s;
+}
+
+.html-css {
+  width: 50%;
+  animation: html 2s;
+}
+
+.python {
+  width: 50%;
+  animation: python 2s;  
+}
+
+.sql {
+  width: 25%;
+  animation: sql 2s;  
+}
+
+.data-science {
+  width: 25%;
+  animation: data-science 2s;
+}
+
+@keyframes user-research {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  } 
+}
+
+@keyframes ui-ux {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  } 
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  } 
+}
+
+@keyframes python {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 25%;
+  } 
+}
+
+@keyframes sql {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 25%;
+  } 
+}
+
+@keyframes data-science {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 25%;
+  } 
+}
+
+/* sector tags */
+
+.sector-tags {
+  margin: 20px 50px 40px 50px;
+  padding: 20px 100px 20px 100px;
+  color: white;
+}
+
+.sector-tag {   
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 15px;
+  padding: 7px 15px;
+  align-content: center;
+  display:inline-block;         
+  margin:10px;
+  transition: 0.3s;
+  background: #F26735;
+}
+
+.sector-tag:hover {   
+ scale: 1.02;
+ transform: scale(1.02);
+}
+
+.video {   
+  margin-top: 40px;
+}
+
+#contact {   
+  margin-bottom: 100px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #fcfcfe;
+  padding: 24px;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer a {
+  font-size: 32px;
+  color: #4d4f51;
+}
+
+.footer a:hover {
+  color: #ED7D3A;
+  font-size: 32px;
+}
+
+#profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 30px;
+}
+
