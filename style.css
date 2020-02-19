@@ -797,8 +797,8 @@ a {
 
   .main {
     width: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -831,8 +831,8 @@ a {
   }
 
   .video {
-    width: 280px;
-    height: 180px;
+    width: 240px;
+    height: 170px;
   }
 
   .projects {
