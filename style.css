@@ -68,26 +68,11 @@ a {
   margin-bottom: 50px;
 }
 
-.title-orange {
-  background: #F26735;                          /* Orange background */
-  padding: 30px;                             /* Internal space */
-  border-radius: 4px;                        /* Small radius */
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
-  text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .main {
   background: white;                         /* White background */
   padding: 30px;                             /* Internal space */
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 .projects-title {
@@ -113,21 +98,6 @@ a {
   align-content: left;
   height: 220px;
   border-radius: 4px;
-}
-
-.focus-orange {
-  background: #F26735;                        
-  padding: 30px;                             /* Internal space */
-  border-radius: 4px;                        /* Small radius */
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
-  text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.focus-orange p {
-  color: white;
 }
 
 .text {                        
@@ -506,7 +476,7 @@ a {
 
 .bar {
   background: white;
-  display:block;
+  display: block;
   height: 2px;
   border: 1px solid rgba(0,0,0,0,3);
   border-radius: 3px;
@@ -633,6 +603,8 @@ a {
   animation: data-science 2s;
 }
 
+/* Skills animation */
+
 @keyframes user-research {
   0%{
     width: 0%;
@@ -693,6 +665,7 @@ a {
   margin: 20px 50px 40px 50px;
   padding: 20px 100px 20px 100px;
   color: white;
+  text-align: center;
 }
 
 .sector-tag {   
@@ -751,6 +724,7 @@ a {
   padding: 30px;
 }
 
+
 /* Responsive */
 
 @media (max-width: 960px) {
@@ -759,28 +733,113 @@ a {
     width: 700px;
   }
 
-    .main {
+  .main {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
+
+  .banner {
+  text-align: center;
+  color: white;
+  padding: 20px 20px;
+  display: block;
+  }
+
+  #profile{
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  }  
+
   .title {
     width: 500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .main {
     width: 500px;
+    margin: 20px;
   }
+
+  .text {                        
+  text-align: center;
+  padding-left: 10px;  
+  padding-right: 10px;  
+  }
+
+  .sector-tags {
+  text-align: center
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: white;
+  }
+
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .title {
-    width: 300px;
+
+  .banner {
+  text-align: center;
+  color: white;
+  padding: 20px 20px;
+  display: block;
   }
 
-   .main {
+  #profile {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  } 
+
+  .title {
     width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
+
+  .main {
+    width: 300px;
+    margin: 20px;
+  }
+
+  .text {                        
+  text-align: center;
+  padding-left: 5px;  
+  padding-right: 5px;  
+  }
+
+  .skills {
+  width: 200px;
+  margin: 25px 25px 15px 25px;
+  color: white;
+  text-align: left;
+  display: inline-block;
+  }
+
+  .sector-tags {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+  color: white;
+  }
+
+  .video {
+  width: 280px;
+  height: 180px;
+  }
+
 }
