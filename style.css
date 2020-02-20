@@ -378,8 +378,8 @@ a {
 
 .ideas-outer {
   display: inline-block;
-  margin: 0px;
-  max-width: 210px;
+  margin: 10px;
+  width: 300px;
 }
 
 .snippet {
