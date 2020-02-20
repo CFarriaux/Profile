@@ -378,8 +378,8 @@ a {
 
 .ideas-outer {
   display: inline-block;
-  margin: 10px;
-  width: 300px;
+  margin: 0px;
+  max-width: 210px;
 }
 
 .snippet {
@@ -827,7 +827,6 @@ a {
 
   .ideas-outer {
     width: 250px;
-    margin: 5px;
   }
 
   .video {
